@@ -35,7 +35,6 @@ This bot answers customer calls, plays a predefined greeting, records their conc
 
 ## ⚙️ Setup & Installation
 1. Clone the repository:
-   ```bash
    git clone https://github.com/your-username/automated-call-bot.git
    cd automated-call-bot
 Create and activate a virtual environment:
@@ -46,13 +45,11 @@ python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
 Install dependencies:
-
-
 pip install -r requirements.txt
+
+
 Configure environment variables in .env:
 
-env
-Copy code
 TWILIO_ACCOUNT_SID=your_twilio_sid
 TWILIO_AUTH_TOKEN=your_twilio_auth
 GMAIL_USER=your_email@gmail.com
